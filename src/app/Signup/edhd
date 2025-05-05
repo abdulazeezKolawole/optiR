@@ -1,0 +1,131 @@
+{/* // import Image from "next/image";
+// import { useState } from "react";
+// import SignupForm from "./components/SignupForm";
+// import LoginForm from "./components/LoginForm";
+
+// export default function Home() { */}
+{/* //   const [showLogin, setShowLogin] = useState(false);
+
+//   return (
+//     <div className="bg-gradient-to-br from-[#B1D9DB] to-[#94C5C8] min-h-screen flex flex-col lg:flex-row">
+//       {/* Left Section - Branding */}
+{/* //       <div className="lg:w-2/5 flex flex-col justify-between p-8 lg:p-12 relative"> */}
+{/* //         <div className="z-10"> */}
+//           {/* Logo and Tagline */}
+{/* //           <div className="mb-8"> */}
+{/* //             <h1 className="font-bold text-5xl md:text-6xl"> */}
+{/* //               <span className="text-[#003399]">Opti</span> */}
+{/* //               <span className="text-[#0DDE65]">Reach</span> */}
+{/* //             </h1> */}
+{/* //             <p className="text-slate-700 font-medium text-lg mt-3"> */}
+{/* //               Banking your community, empowering your future. */}
+{/* //             </p> */}
+{/* //           </div> */}
+          
+//           {/* Value Proposition */}
+{/* //           <div className="hidden md:block mt-12 text-slate-700"> */}
+{/* //             <div className="mb-6"> */}
+{/* //               <h3 className="font-semibold text-xl mb-2">Simple Banking</h3> */}
+{/* //               <p>Streamlined financial services designed with your needs in mind.</p> */}
+{/* //             </div> */}
+{/* //             <div className="mb-6"> */}
+{/* //               <h3 className="font-semibold text-xl mb-2">Community Focus</h3> */}
+{/* //               <p>Building stronger local economies through thoughtful banking.</p> */}
+{/* //             </div> */}
+{/* //             <div className="mb-6"> */}
+{/* //               <h3 className="font-semibold text-xl mb-2">Sustainable Growth</h3> */}
+{/* //               <p>Supporting both your financial goals and environmental future.</p> */}
+{/* //             </div> */}
+{/* //           </div> */}
+{/* //         </div> */}
+        
+//         {/* Decorative Elements */}
+{/* //         <div className="relative mt-8 lg:mt-0"> */}
+{/* //           <div className="absolute bottom-0 left-0 w-32 h-32 bg-[#0DDE65]/10 rounded-full -z-0"></div> */}
+{/* //           <div className="absolute top-12 right-12 w-16 h-16 bg-[#003399]/10 rounded-full -z-0"></div> */}
+{/* //           <Image */}
+{/* //             src="/Abstraction.png"
+//             alt="Abstraction Graphic"
+//             width={500}
+//             height={400}
+//             className="hidden md:block relative z-10" */}
+//           />
+{/* //         </div> */}
+//       </div>
+
+//       {/* Right Section - Auth Forms */}
+//       <div className="lg:w-3/5 bg-white rounded-tl-[70px] lg:rounded-l-[70px] shadow-xl flex justify-center items-center">
+//         <div className="w-full max-w-md px-6 py-12">
+//           {/* Toggle between Signup and Login */}
+//           <div className="flex justify-center mb-8">
+//             <div className="inline-flex rounded-full bg-slate-100 p-1">
+//               <button
+//                 onClick={() => setShowLogin(false)}
+//                 className={`px-6 py-2 rounded-full text-sm font-medium transition ${
+//                   !showLogin 
+//                     ? "bg-white shadow-md text-[#003399]" 
+//                     : "text-slate-600 hover:text-slate-800"
+//                 }`}
+//               >
+//                 Sign Up
+//               </button>
+//               <button
+//                 onClick={() => setShowLogin(true)}
+//                 className={`px-6 py-2 rounded-full text-sm font-medium transition ${
+//                   showLogin 
+//                     ? "bg-white shadow-md text-[#003399]" 
+//                     : "text-slate-600 hover:text-slate-800"
+//                 }`}
+//               >
+//                 Log In
+//               </button>
+//             </div>
+//           </div>
+          
+//           {/* Form Header */}
+//           <div className="text-center mb-8">
+//             <h2 className="text-2xl font-bold text-slate-800">
+//               {showLogin ? "Welcome Back!" : "Create Your Account"}
+//             </h2>
+//             <p className="text-slate-500 mt-2">
+//               {showLogin 
+//                 ? "Sign in to access your OptiReach dashboard" 
+//                 : "Join thousands of people managing their finances with OptiReach"
+//               }
+//             </p>
+//           </div>
+
+//           {/* Dynamic Form */}
+//           {showLogin ? <LoginForm /> : <SignupForm />}
+          
+//           {/* Additional Links */}
+//           <div className="mt-8 text-center text-sm text-slate-500">
+//             {showLogin ? (
+//               <p>
+//                 Don't have an account?{" "}
+//                 <button 
+//                   onClick={() => setShowLogin(false)}
+//                   className="text-[#0DDE65] font-medium hover:underline"
+//                 >
+//                   Sign up now
+//                 </button>
+//               </p>
+//             ) : (
+//               <p>
+//                 Already have an account?{" "}
+//                 <button 
+//                   onClick={() => setShowLogin(true)}
+//                   className="text-[#0DDE65] font-medium hover:underline"
+//                 >
+//                   Log in
+//                 </button>
+//               </p>
+//             )}
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+// 
