@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
+import Nav from "./components/nav";
+import TransactionCard from "./components/CardSection";
 
 export default function Dashboard() {
   return (
@@ -13,7 +15,12 @@ export default function Dashboard() {
 
       {/* Main content */}
       <div className="w-5/6 p-6">
-        <span>Hello</span>
+        <div>
+            <Nav/>
+            <div className="border">
+                <TransactionCard/>
+            </div>
+        </div>
       </div>
     </div>
   );
