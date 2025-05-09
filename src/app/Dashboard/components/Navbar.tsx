@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Image from "next/image";
 import { 
   Home, 
   CreditCard, 
@@ -100,7 +99,7 @@ export default function Sidebar() {
   ];
 
   return (
-    <div className="flex flex-col h-screen border-r border-gray-200 w-full bg-white py-4">
+    <div className="flex flex-col min-h-screen border-r border-gray-200 w-full bg-white py-4">
         <div className="mt-5 m-5">
         <h1 className="text-2xl font-bold">
           <span className="text-[#003399]">Opti</span>
